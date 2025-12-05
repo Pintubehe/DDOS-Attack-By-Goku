@@ -5,7 +5,7 @@ import urllib.request
 import random
 import time
 import socket
-from user_agent import generate_user_agent
+from fake_useragent import UserAgent
 from urllib.request import ProxyHandler, build_opener
 import sqlite3
 from datetime import datetime
